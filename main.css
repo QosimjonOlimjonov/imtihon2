@@ -1,0 +1,171 @@
+@font-face {
+  font-display: swap;
+  font-family: "Futura PT";
+  font-weight: 700;
+  src: url("./fonts/FuturaPT700.woff2") format("woff2"),
+       url("./fonts/FuturaPT700.woff") format("woff");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Futura PT";
+  font-weight: 500;
+  src: url("./fonts/FuturaPT500.woff2") format("woff2"),
+       url("./fonts/FuturaPT500.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Futura PT";
+  font-weight: 400;
+  src: url("./fonts/FuturaPT400.woff2") format("woff2"),
+       url("./fonts/FuturaPT400.woff") format("woff");
+}
+@font-face {
+  font-display: swap;
+  font-family: "Futura PT";
+  font-weight: 300;
+  src: url("./fonts/FuturaPT300.woff2") format("woff2"),
+       url("./fonts/FuturaPT300.woff") format("woff");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --main-fontblack-color: #333333;
+  --main-font-color: #949494;
+  --main-font-weight4: 400;
+  /* --main-font-weight5: 500; */
+  --main-font-weight7: 700;
+  --main-line-height: 20px;
+}
+
+body {
+  font-family: "Futura PT", "Arial", sans-serif;
+  font-weight: 500;
+  margin: 0;
+  background-image: url("./images/bg.png");
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+
+
+.site-header {
+}
+.site-header__top {
+  background-color: #f9f8f8;
+}
+.container {
+  width: 1350px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.adress-top {
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-top: 9px;
+  padding-bottom: 12px;
+}
+.adress-top__loc {
+  position: relative;
+  margin-right: 128px;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--main-fontblack-color);
+}
+
+.adress-top__loc::before {
+  position: absolute;
+  top: 1px;
+  left: -23px;
+  width: 14px;
+  height: 13px;
+  content: "";
+  background-image: url("./images/adresshome.svg");
+}
+.top-center {
+  display: flex;
+  margin-top: 0;
+  margin-right: 119px;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.top-center__items {
+  position: relative;
+}
+.top-center__items:first-child::before {
+  position: absolute;
+  top: 3px;
+  left: -22px;
+  width: 13px;
+  height: 13px;
+  content: "";
+  background-image: url("./images/adresscall.svg");
+}
+
+.top-center__items:not(:last-child) {
+  margin-right: 22px;
+}
+.top-center__link {
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--main-fontblack-color);
+}
+.top-right {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  list-style: none;
+}
+.top-right__items {
+  position: relative;
+}
+.top-right__items:first-child::before {
+  position: absolute;
+  top: 3px;
+  left: -21px;
+  width: 14px;
+  height: 14px;
+  content: "";
+  background-image: url("./images/adresstime.svg");
+}
+
+.top-right__items:not(:last-child) {
+  margin-right: 17px;
+}
+.top-right__time {
+  font-size: 14px;
+  color: var(--main-fontblack-color);
+}
+
+.top-right__dict {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.top-right__strong {
+  font-size: 14px;
+  color: var(--main-fontblack-color);
+}
+.top-right__time {
+  font-size: 14px;
+  color: var(--main-fontblack-color);
+}
