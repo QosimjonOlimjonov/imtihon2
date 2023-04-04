@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru»">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./main.css">
-  <title>Imtihon</title>
+  <title>Veterinary clinic</title>
 </head>
 
 <body>
@@ -31,13 +31,13 @@
             <li class="top-right__items">
               <p class="top-right__dict">
                 <strong class="top-right__strong">Пн - Пт </strong>
-                <time class="top-right__time" datetime="2023-04-03 8:00">8:00 - 18:00</time>
+                <time class="top-right__time" datetime="2023-04-03 08:00">8:00 - 18:00</time>
               </p>
             </li>
             <li class="top-right__items">
               <p class="top-right__dict">
                 <strong class="top-right__strong">Сб - Вс </strong>
-                <time class="top-right__time" datetime="2023-04-03 8:00">8:00 - 14:00</time>
+                <time class="top-right__time" datetime="2023-04-03 08:00">8:00 - 14:00</time>
               </p>
 
             </li>
@@ -109,7 +109,7 @@
                 чтобы быстро, эффективно и максимально безболезненно выполнить любие процедуры, которые необходимы
                 Вашему домашнему любимцу.</p>
             </div>
-            <a class="intro__botton" href="">Наши услуги</a>
+            <a class="intro__botton" href="#">Наши услуги</a>
           </div>
         </div>
       </div>
@@ -118,13 +118,15 @@
     <article class="site-article">
       <div class="container">
         <div class="site-article__box">
+          <h2 class="visually-hidden">ветеринарное слово</h2>
           <div class="site-article__title-box">
-            <blockquote class="site-article__title">
+            <blockquote class="site-article__title" >
               Наша ветеринарная клиника готова уделить максимум внимания Вам и Вашему питамцу. Здоровье и благополучие
               Ваших животных очень важно для нас и мы стремимся оказать наилучшую возможную ветеринарную помощь.
+            
             </blockquote>
           </div>
-          <site class="site-article__title-after">Оржоникидзевская Ветеринарная клиника</site>
+          <cite class="site-article__title-after">Оржоникидзевская Ветеринарная клиника</cite>
         </div>
       </div>
     </article>
@@ -134,7 +136,9 @@
       <div class="container">
         <div class="service__big-box">
           <h2 class="service__title">Наши услуги</h2>
+
           <div class="service__box-big">
+            <button class="service__left-button"></button>
             <ol class="service__list">
               <li class="service__items items">
                 <h3 class="items__title">Первичный осмотр</h3>
@@ -155,6 +159,7 @@
                 <h3 class="items__title">Офтальмология</h3>
               </li>
             </ol>
+            <button class="service__right-button"></button>
             <div class="service__box">
               <img class="service__img" src="./images/serviceimg.png" width="458" height="329" alt="">
               <div class="service__information-div">
@@ -261,7 +266,6 @@
             <textarea class="location__input-text" name="text" aria-label="раздел комментариев"
               placeholder="Опишите Ваш вопрос."></textarea>
             <button class="location__bottom" type="submit">Задать нам вопрос</button>
-            </p>
           </form>
         </div>
       </div>
@@ -313,19 +317,21 @@
             <li class="footer-box__ol-items">
               <p class="footer-box__dict">
                 <strong class="footer-box__strong">Пн - Пт </strong>
-                <time class="footer-box__time" datetime="2023-04-03 8:00">8:00 - 18:00</time>
+                <time class="footer-box__time" datetime="2023-04-03 08:00">8:00 - 18:00</time>
               </p>
             </li>
             <li class="footer-box__ol-items">
 
               <p class="footer-box__dict">
                 <strong class="footer-box__strong">Пн - Пт </strong>
-                <time class="footer-box__time" datetime="2023-04-03 8:00">8:00 - 18:00</time>
+                <time class="footer-box__time" datetime="2023-04-03 08:00">8:00 - 18:00</time>
               </p>
             </li>
           </ol>
-          <a class="adress-box__loc" href="https://goo.gl/maps/9fJU9ZKntJ7B9iSG7" target="blank">г. Мариуполь, проспект
-            Победы, 48а</a>
+          <div class="footer-box__loc-box">
+            <a class="adress-box__loc" href="https://goo.gl/maps/9fJU9ZKntJ7B9iSG7" target="blank">г. Мариуполь, проспект
+              Победы, 48а</a>
+          </div>
           <ul class="adress-box__list">
             <li class="adress-box__items">
               <a class="adress-box__link" href="tel:+380676347574">(067) 634 -75 - 74</a>
@@ -340,6 +346,7 @@
 
         </address>
       </div>
+      <p class="site-footer-dict">© 2020 example. All Rights Reserved.</p>
     </div>
   </footer>
 
